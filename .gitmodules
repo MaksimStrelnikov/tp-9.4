@@ -1,0 +1,6 @@
+[submodule "mobileApp-9.4"]
+	path = application/mobileApp-9.4
+	url = https://github.com/MaksimStrelnikov/mobileApp-9.4
+[submodule "backend-9.4"]
+	path = application/backend-9.4
+	url = https://github.com/MaksimStrelnikov/backend-9.4
