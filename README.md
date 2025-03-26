@@ -18,9 +18,9 @@
 - [Figma](https://www.figma.com/design/RawKKCWpsSWZ3x9qSwJ6tr/PT-main?node-id=4221-5227&t=HYgxnD48BTPlmllP-0)
 
 ### Документация
-  ### Дизайн-проект
-  - [Брэндбук](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Документация/Дизайн-проект/Брэндбук.pptx)
-  ### Техническая спецификация
-  - Техническое Задание [PDF](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Документация/Техническая%20спецификация/Техническое%20Задание.pdf), [DOCX](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Документация/Техническая%20спецификация/Техническое%20задание.docx)
+###   Дизайн-проект
+  -    [Брэндбук](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Документация/Дизайн-проект/Брэндбук.pptx)
+###   Техническая спецификация
+  -    Техническое Задание [PDF](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Документация/Техническая%20спецификация/Техническое%20Задание.pdf), [DOCX](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Документация/Техническая%20спецификация/Техническое%20задание.docx)
 
 
