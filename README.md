@@ -19,8 +19,8 @@
 
 ### Документация
   ####   Дизайн-проект
-    - [Брэндбук](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Документация/Дизайн-проект/Брэндбук.pptx)
+  - [Брэндбук](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Документация/Дизайн-проект/Брэндбук.pptx)
   ####   Техническая спецификация
-    - Техническое Задание [PDF](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Документация/Техническая%20спецификация/Техническое%20Задание.pdf), [DOCX](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Документация/Техническая%20спецификация/Техническое%20задание.docx)
+  - Техническое Задание [PDF](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Документация/Техническая%20спецификация/Техническое%20Задание.pdf), [DOCX](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Документация/Техническая%20спецификация/Техническое%20задание.docx)
 
 
