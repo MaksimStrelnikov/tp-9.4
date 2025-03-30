@@ -48,6 +48,8 @@
   - [Схема API](Документация/Диаграммы/openapi.yaml)
   - [Swagger](https://app.swaggerhub.com/apis/RalenOreti/caker-api/1.0.2)
   - User roles [PDF](Документация/Диаграммы/User%20Roles.pdf), [DOCX](Документация/Диаграммы/User%20Roles.pdf)
+  - [Use Case (Для авторизированных клиентов)](Документация/Диаграммы/use_case.drawio.png)
+  - [Use Case (Для неавторизированных клиентов)](Документация/Диаграммы/use_case_unauth.drawio.png)
 ## Презентации
 ### Аттестация 1
 - [Видео-презентация](https://drive.google.com/file/d/14WaP64-ASEpNvpIHuNhjDqMthJkkLIEU/view?usp=drivesdk)
