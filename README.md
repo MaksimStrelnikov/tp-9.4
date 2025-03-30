@@ -14,6 +14,7 @@
 ## Используемые сервисы
 - [Таск трекер](https://tracker.yandex.ru/pages/projects/1);
 - [Figma](https://www.figma.com/design/RawKKCWpsSWZ3x9qSwJ6tr/PT-main?node-id=4221-5227&t=HYgxnD48BTPlmllP-0).
+  **!В связи с проблемой получения доступа к трекеру выгрузили [таблицу](Документация/Отчёты и задачи/Все наши задачи.xlsx) со всеми задачами в трекере!**
 
 ## Документация
 ### Дизайн-проект
@@ -37,7 +38,7 @@
 ### Диаграммы
   - [ER-диаграмма](Документация/Диаграммы/er_new.drawio.png);
   - [Диаграмма классов](Документация/Диаграммы/class.drawio.png).
-
+  - [Схема API](Документация/Диаграммы/openapi.yaml)
 ## Презентации
 ### Аттестация 1
 - [Видео-презентация](https://drive.google.com/file/d/14WaP64-ASEpNvpIHuNhjDqMthJkkLIEU/view?usp=drivesdk)
