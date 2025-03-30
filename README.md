@@ -1,7 +1,7 @@
 # "Caker" 9.4
 
 ## Члены команды:
-Имя + git | Роль | Ссылка на vk
+Имя + git | Роль | Контакты
 --- | --- | --- 
 [Мишненкова Елизавета](https://github.com/venlesN) | ПМ, аналитик, Тим-лид | [VK](https://vk.com/emishnenkova)
 [Кильченко Владимир](https://github.com/ralencode) | Backend разработчик |[VK](https://vk.com/vkil04)
