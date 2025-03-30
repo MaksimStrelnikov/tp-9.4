@@ -1,11 +1,18 @@
 # "Caker" 9.4
 
 ## Члены команды:
-- [Мишненкова Елизавета](https://github.com/venlesN) - ПМ, аналитик, Тим-лид
-- [Кильченко Владимир](https://github.com/ralencode) - Backend разработчик
-- [Чаленко Михаил](https://github.com/Mivankir) - Тестировщик
-- [Бакланова Вероника](https://github.com/Alex-Sing-bit) - UI|UX дизайнер
-- [Стрельников Максим](https://github.com/MaksimStrelnikov) - Frontend разработчик
+Имя + git | Роль | Ссылка на vk
+--- | --- | --- 
+[Мишненкова Елизавета](https://github.com/venlesN) | ПМ, аналитик, Тим-лид | [VK](https://vk.com/emishnenkova)
+--- | --- | --- 
+[Кильченко Владимир](https://github.com/ralencode) | Backend разработчик |[VK](https://vk.com/vkil04)
+--- | --- | --- 
+[Чаленко Михаил](https://github.com/Mivankir) | Тестировщик | [VK](https://vk.com/rave_demon)
+--- | --- | --- 
+[Бакланова Вероника](https://github.com/Alex-Sing-bit) | UI|UX дизайнер | [VK](https://vk.com/baklanova4)
+--- | --- | --- 
+[Стрельников Максим](https://github.com/MaksimStrelnikov) | Frontend разработчик | [VK](https://vk.com/stremaksig)
+--- | --- | --- 
 
 ## Подмодули разрабатываемого сервиса
 - [Back-end](https://github.com/MaksimStrelnikov/backend-9.4)
