@@ -45,6 +45,7 @@
   - [ER-диаграмма](Документация/Диаграммы/er_new.drawio.png);
   - [Диаграмма классов](Документация/Диаграммы/class.drawio.png).
   - [Схема API](Документация/Диаграммы/openapi.yaml)
+  - [Swagger](https://app.swaggerhub.com/apis/RalenOreti/caker-api/1.0.2)
   - User roles [PDF](Документация/Диаграммы/User%20Roles.pdf), [DOCX](Документация/Диаграммы/User%20Roles.pdf)
 ## Презентации
 ### Аттестация 1
