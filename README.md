@@ -57,7 +57,7 @@
 ### Наш Чек-лист
   [Чек-лист]();
 ### Кто проверял нас
-  - Команда [8.2]();
-  - Команда [9.1]();
-  - Команда [9.2]();
-  - Команда [5.СК3]().
+  - Команда [8.2](https://github.com/Lime228/TPProject/tree/main);
+  - Команда [9.1](https://github.com/IgorPustylnik/TP-9.1);
+  - Команда [9.2](https://github.com/LatinMapsLives/JourneyGuideApp);
+  - Команда [5.СК3](https://github.com/intrafellow/TechTrackInvest).
