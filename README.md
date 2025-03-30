@@ -36,10 +36,11 @@
   + SWOT-анализ [PDF](Документация/Предпроектное%20исследование/SWOT-анализ.pdf);
   + [Roadmap](https://www.figma.com/design/RawKKCWpsSWZ3x9qSwJ6tr/Caker-9.4?node-id=4345-2744&p=f&t=iP84eQhG8OwHZn18-0).
 
-### Диаграммы
+### Диаграммы и описания
   - [ER-диаграмма](Документация/Диаграммы/er_new.drawio.png);
   - [Диаграмма классов](Документация/Диаграммы/class.drawio.png).
   - [Схема API](Документация/Диаграммы/openapi.yaml)
+  - User roles [PDF](Документация/Диаграммы/User%20Roles.pdf), [DOCX](Документация/Диаграммы/User%20Roles.pdf)
 ## Презентации
 ### Аттестация 1
 - [Видео-презентация](https://drive.google.com/file/d/14WaP64-ASEpNvpIHuNhjDqMthJkkLIEU/view?usp=drivesdk)
