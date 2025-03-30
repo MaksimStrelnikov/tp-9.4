@@ -1,0 +1,705 @@
+openapi: 3.0.0
+info:
+  title: Caker API
+  description: API for the Caker app
+  version: 1.0.0
+
+paths:
+  /users/phone/{phone-string}:
+    get:
+      summary: Retrieve a user by phone number
+      parameters:
+        - in: path
+          name: phone-string
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: User found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        404:
+          description: User not found
+
+  /confectioners:
+    get:
+      summary: Retrieve a list of confectioners
+      responses:
+        200:
+          description: Confectioners found
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Confectioner'
+    post:
+      summary: Create a new confectioner
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Confectioner'
+      responses:
+        201:
+          description: Confectioner created
+
+  /cakes/confectioner/{confectioner_id}:
+    get:
+      summary: Retrieve a list of cakes offered by a confectioner
+      parameters:
+        - in: path
+          name: confectioner_id
+          required: true
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Cakes found
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Cake'
+        404:
+          description: Confectioner not found
+
+  /feedback/{confectioner_id}:
+    get:
+      summary: Retrieve a list of feedbacks for a confectioner
+      parameters:
+        - in: path
+          name: confectioner_id
+          required: true
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Feedbacks found
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Feedback'
+        404:
+          description: Confectioner not found
+
+  /orders/customer/{customer_id}:
+    get:
+      summary: Retrieve a list of orders made by a customer
+      parameters:
+        - in: path
+          name: customer_id
+          required: true
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Orders found
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Order'
+        404:
+          description: Customer not found
+
+  /orders/confectioner/{confectioner_id}:
+    get:
+      summary: Retrieve a list of orders received by a confectioner
+      parameters:
+        - in: path
+          name: confectioner_id
+          required: true
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Orders found
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Order'
+        404:
+          description: Confectioner not found
+
+  /users/have_chat_with/{user_id}:
+    get:
+      summary: Retrieve a list of users that have a chat with a user
+      parameters:
+        - in: path
+          name: user_id
+          required: true
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Users found
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+        404:
+          description: User not found
+
+  /messages/{customer_id}/{confectioner_id}:
+    get:
+      summary: Retrieve a list of messages between a customer and a confectioner
+      parameters:
+        - in: path
+          name: customer_id
+          required: true
+          schema:
+            type: integer
+        - in: path
+          name: confectioner_id
+          required: true
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Messages found
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Message'
+        404:
+          description: Customer or confectioner not found
+
+  /cakes/{cake_id}:
+    get:
+      summary: Retrieve a cake by ID
+      parameters:
+        - in: path
+          name: cake_id
+          required: true
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Cake found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Cake'
+        404:
+          description: Cake not found
+    put:
+      summary: Update a cake
+      parameters:
+        - in: path
+          name: cake_id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Cake'
+      responses:
+        200:
+          description: Cake updated
+    delete:
+      summary: Delete a cake
+      parameters:
+        - in: path
+          name: cake_id
+          required: true
+          schema:
+            type: integer
+      responses:
+        204:
+          description: Cake deleted
+
+
+  /orders/{order_id}:
+    get:
+      summary: Retrieve an order by ID
+      parameters:
+        - in: path
+          name: order_id
+          required: true
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Order found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Order'
+        404:
+          description: Order not found
+    put:
+      summary: Update an order
+      parameters:
+        - in: path
+          name: order_id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Order'
+      responses:
+        200:
+          description: Order updated
+    delete:
+      summary: Delete an order
+      parameters:
+        - in: path
+          name: order_id
+          required: true
+          schema:
+            type: integer
+      responses:
+        204:
+          description: Order deleted
+
+
+
+  /cakes:
+    post:
+      summary: Create a new cake
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Cake'
+      responses:
+        201:
+          description: Cake created
+
+
+  /orders:
+    post:
+      summary: Create a new order
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Order'
+      responses:
+        201:
+          description: Order created
+
+  /customers:
+    post:
+      summary: Create a new customer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Customer'
+      responses:
+        201:
+          description: Customer created
+
+  /messages:
+    post:
+      summary: Create a new message
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Message'
+      responses:
+        201:
+          description: Message created
+
+  /feedback:
+    post:
+      summary: Create a new feedback
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Feedback'
+      responses:
+        201:
+          description: Feedback created
+  
+  /confectioners/{confectioner_id}:
+    put:
+      summary: Update a confectioner
+      parameters:
+        - in: path
+          name: confectioner_id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Confectioner'
+      responses:
+        200:
+          description: Confectioner updated
+    delete:
+      summary: Delete a confectioner
+      parameters:
+        - in: path
+          name: confectioner_id
+          required: true
+          schema:
+            type: integer
+      responses:
+        204:
+          description: Confectioner deleted
+
+
+  /customers/{customer_id}:
+    put:
+      summary: Update a customer
+      parameters:
+        - in: path
+          name: customer_id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Customer'
+      responses:
+        200:
+          description: Customer updated
+    delete:
+      summary: Delete a customer
+      parameters:
+        - in: path
+          name: customer_id
+          required: true
+          schema:
+            type: integer
+      responses:
+        204:
+          description: Customer deleted
+
+
+  /feedback/{feedback_id}:
+    put:
+      summary: Update a feedback
+      parameters:
+        - in: path
+          name: feedback_id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Feedback'
+      responses:
+        200:
+          description: Feedback updated
+    delete:
+      summary: Delete a feedback
+      parameters:
+        - in: path
+          name: feedback_id
+          required: true
+          schema:
+            type: integer
+      responses:
+        204:
+          description: Feedback deleted
+
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 5
+        name:
+          type: string
+          example: "Grzegorz Brzęczyszczykiewicz"
+        email:
+          type: string
+          example: "bgregory@tutamail.com"
+        password:
+          type: string
+          example: "pas945verysecure"
+        phone_number:
+          type: string
+          example: "88005553535"
+      required:
+        - id
+        - name
+        - email
+        - password
+        - phone_number
+
+    Customer:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 9
+        user_id:
+          type: integer
+          format: int64
+          example: 2
+      required:
+        - id
+        - user_id
+
+    Confectioner:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 14
+        user_id:
+          type: integer
+          format: int64
+          example: 1
+        description:
+          type: string
+          example: "I'll cook better than Walter White"
+        rating:
+          type: number
+          format: double
+          example: 4.9
+        address:
+          type: string
+          example: "221B Baker St, Marylebone, London NW1 6XE, UK"
+      required:
+        - id
+        - user_id
+        - description
+        - rating
+        - address
+
+    Message:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 420
+        from_id:
+          type: integer
+          format: int64
+          example: 2
+        to_id:
+          type: integer
+          format: int64
+          example: 1
+        image:
+          type: string
+          nullable: true
+          example: "images/cat33.jpg"
+        text:
+          type: string
+          nullable: true
+          example: "Look how much my fluffy dumbass loved your cake!"
+        date:
+          type: string
+          format: date
+      required:
+        - id
+        - from_id
+        - to_id
+        - date
+
+    Cake:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 1
+        confectioner_id:
+          type: integer
+          format: int64
+          example: 2
+        visible:
+          type: boolean
+          example: true
+        name:
+          type: string
+          example: "Napoleon"
+        description:
+          type: string
+          example: "A timeless classic!"
+        image:
+          type: string
+          example: "images/cake2.png"
+        price:
+          type: number
+          format: double
+          example: 5.36
+        weight:
+          type: number
+          format: double
+          example: 2.05
+        diameter:
+          type: number
+          format: double
+          example: 45.5
+        req_time:
+          type: string
+          format: duration
+          example: "15d 1h 30m"
+        text:
+          type: string
+          nullable: true
+          example: "Happy birthday, John Smith!"
+        color:
+          type: string
+          nullable: true
+          example: "red"
+      required:
+        - id
+        - confectioner_id
+        - visible
+        - name
+        - description
+        - image
+        - price
+        - weight
+        - diameter
+        - req_time
+
+    Order:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 69
+        cake_id:
+          type: integer
+          format: int64
+          example: 25
+        customer_id:
+          type: integer
+          format: int64
+          example: 12
+        price:
+          type: number
+          format: double
+          example: 10.45
+        payment_status:
+          type: string
+          enum:
+            - PENDING
+            - PAID
+            - REFUNDED
+        creation_date:
+          type: string
+          format: date
+        eta:
+          type: string
+          format: date
+          example: 2026-09-12
+        order_status:
+          type: string
+          enum:
+            - PENDING
+            - IN_PROGRESS
+            - DELIVERED
+            - CANCELED
+          example: IN_PROGRESS
+      required:
+        - id
+        - cake_id
+        - customer_id
+        - price
+        - payment_status
+        - creation_date
+        - eta
+        - order_status
+
+    Feedback:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 2
+        confectioner_id:
+          type: integer
+          format: int64
+          example: 34
+        customer_id:
+          type: integer
+          format: int64
+          example: 12
+        cake_id:
+          type: integer
+          format: int64
+          example: 25
+        image:
+          type: string
+          nullable: true
+          example: "photos/cake25.png"
+        text:
+          type: string
+          nullable: true
+          example: "A good cake, thanks!"
+        rating:
+          type: integer
+          minimum: 1
+          maximum: 5
+          example: 3
+        date:
+          type: string
+          format: date
+      required:
+        - id
+        - confectioner_id
+        - customer_id
+        - cake_id
+        - rating
+        - date
+
+    PaymentStatusType:
+      type: string
+      enum:
+        - PENDING
+        - PAID
+        - REFUNDED
+
+    OrderStatusType:
+      type: string
+      enum:
+        - PENDING
+        - IN_PROGRESS
+        - DELIVERED
+        - CANCELED
