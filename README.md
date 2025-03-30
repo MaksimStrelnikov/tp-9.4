@@ -15,7 +15,7 @@
 
 ## Используемые сервисы
 - [Таск трекер](https://tracker.yandex.ru/pages/projects/1);
-- [Miro](https://miro.com/app/board/uXjVIcIi5ic=/)
+- [Miro](https://miro.com/app/board/uXjVIcIi5ic=/);
 - [Figma](https://www.figma.com/design/RawKKCWpsSWZ3x9qSwJ6tr/PT-main?node-id=4221-5227&t=HYgxnD48BTPlmllP-0).
 **!В связи с проблемой получения доступа к трекеру выгрузили [таблицу](Документация/Отчёты%20и%20задачи/Все%20наши%20задачи.xlsx) со всеми задачами в трекере!**
 Для доступа в трекер напишите [Елизавете](https://vk.com/emishnenkova) сообщение с вашей почтой (можно перейти по ссылке или отправить в телеграмме @venlesNik). В течении 15-25 минут вам будет выслано приглашение в трекер и настроен доступ.
