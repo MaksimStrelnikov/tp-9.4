@@ -30,5 +30,5 @@
 ## Презентации
 ### Аттестация 1
 - [Видео-презентация](https://drive.google.com/file/d/14WaP64-ASEpNvpIHuNhjDqMthJkkLIEU/view?usp=drivesdk)
-- [Файл]()
+- Презентация [PDF](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Презентации/Аттестация%201/Презентация%20ТЗ.pdf) [PPTX](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Презентации/Аттестация%201/Презентация%20ТЗ.pptx)
 
