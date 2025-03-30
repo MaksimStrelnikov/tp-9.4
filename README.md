@@ -55,7 +55,7 @@
 
 ## Оценки
 ### Наш Чек-лист
-  [Чек-лист]();
+  [Чек-лист](https://docs.google.com/spreadsheets/d/1VnzvLVx9-J3AFBg_S8BTsxBm4z3U46NIhIShkjp6mzk/edit?gid=116236438#gid=116236438);
 ### Кто проверял нас
   - Команда [8.2](https://github.com/Lime228/TPProject/tree/main);
   - Команда [9.1](https://github.com/IgorPustylnik/TP-9.1);
