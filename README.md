@@ -17,8 +17,9 @@
 - [Таск трекер](https://tracker.yandex.ru/pages/projects/1);
 - [Miro (содержит User Story)](https://miro.com/app/board/uXjVIJFCMsY=/?share_link_id=435905910797);
 - [Figma](https://www.figma.com/design/RawKKCWpsSWZ3x9qSwJ6tr/PT-main?node-id=4221-5227&t=HYgxnD48BTPlmllP-0).
-**!В связи с проблемой получения доступа к трекеру выгрузили [таблицу](Документация/Отчёты%20и%20задачи/Все%20наши%20задачи.xlsx) со всеми задачами в трекере!**
+
 Для доступа в трекер напишите [Елизавете](https://vk.com/emishnenkova) сообщение с вашей почтой (можно перейти по ссылке или отправить в телеграмме @venlesNik). В течении 15-25 минут вам будет выслано приглашение в трекер и настроен доступ.
+- [Отчёты о ведении разработки](https://github.com/MaksimStrelnikov/tp-9.4/tree/main/Документация/Отчёты%20и%20задачи/Отчёты%20о%20задачах)
 
 ## Документация
 ### Дизайн-проект
@@ -50,14 +51,20 @@
   - User roles [PDF](Документация/Диаграммы/User%20Roles.pdf), [DOCX](Документация/Диаграммы/User%20Roles.pdf)
   - [Use Case (Для авторизированных клиентов)](Документация/Диаграммы/use_case.drawio.png)
   - [Use Case (Для неавторизированных клиентов)](Документация/Диаграммы/use_case_unauth.drawio.png)
+  - [Отчёт о тестировании](Документация/Отчёты%20и%20задачи/Отчёт%20о%20тестировании.docx)
 ## Презентации
 ### Аттестация 1
 - [Видео-презентация](https://drive.google.com/file/d/14WaP64-ASEpNvpIHuNhjDqMthJkkLIEU/view?usp=drivesdk)
 - Презентация [PDF](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Презентации/Аттестация%201/Презентация%20ТЗ.pdf) [PPTX](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Презентации/Аттестация%201/Презентация%20ТЗ.pptx)
+### Аттестация 2 
+- [Видео-презентация MVP](https://drive.google.com/file/d/1Ux0C5bOlMCXTqAZN1lA3TA8qdrKkMwd3/view?usp=drivesdk)
+- [Видео о работе приложения](https://drive.google.com/file/d/1VCCC8SK5UN5od-ND91GyF25OvsG4xizP/view?usp=drivesdk)
+- Презентация [PDF](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Презентации/Аттестация%202/Презентация_MVP.pdf) [PPTX](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Презентации/Аттестация%202/Презентация_MVP.pptx)
 
 ## Оценки
-### Наш Чек-лист
-  Чек-лист [PDF](Презентации/Аттестация%201/9.4.%20Чеклист%201%20этап%20-%20чеклист.pdf), [Онлайн](https://docs.google.com/spreadsheets/d/1VnzvLVx9-J3AFBg_S8BTsxBm4z3U46NIhIShkjp6mzk/edit?gid=116236438#gid=116236438);
+### Наши Чек-листы
+  - Чек-лист на первую аттестацию [PDF](Презентации/Аттестация%201/9.4.%20Чеклист%201%20этап%20-%20чеклист.pdf), [Онлайн](https://docs.google.com/spreadsheets/d/1VnzvLVx9-J3AFBg_S8BTsxBm4z3U46NIhIShkjp6mzk/edit?gid=116236438#gid=116236438);
+  - Чек-лист на вторую аттестацию [PDF](), [Онлайн]();
 ### Кто проверял нас
   - Команда [8.2](https://github.com/Lime228/TPProject/tree/main);
   - Команда [9.1](https://github.com/IgorPustylnik/TP-9.1);
