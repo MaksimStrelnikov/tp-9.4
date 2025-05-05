@@ -10,7 +10,7 @@
 [Стрельников Максим](https://github.com/MaksimStrelnikov) | Frontend разработчик | [VK](https://vk.com/stremaksig)
 
 ## Подмодули разрабатываемого сервиса
-- [Back-end](https://github.com/MaksimStrelnikov/backend-9.4)
+- [Back-end](https://github.com/ralencode/caker)
 - [Mobile-app](https://github.com/MaksimStrelnikov/mobileApp-9.4)
 
 ## Используемые сервисы
