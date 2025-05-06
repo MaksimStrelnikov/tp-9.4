@@ -67,7 +67,7 @@
 ## Оценки
 ### Наши Чек-листы
   - Чек-лист на первую аттестацию [PDF](Презентации/Аттестация%201/9.4.%20Чеклист%201%20этап%20-%20чеклист.pdf), [Онлайн](https://docs.google.com/spreadsheets/d/1VnzvLVx9-J3AFBg_S8BTsxBm4z3U46NIhIShkjp6mzk/edit?gid=116236438#gid=116236438);
-  - Чек-лист на вторую аттестацию [PDF](), [Онлайн]();
+  - Чек-лист на вторую аттестацию [PDF](), [Онлайн](https://docs.google.com/spreadsheets/d/1K2BeqbMLcOmt9NTP8_UyuGs4v2tWcAuFWn2uSE9HBYA/edit?gid=0#gid=0);
 ### Кто проверял нас
   - Команда [8.2](https://github.com/Lime228/TPProject/tree/main);
   - Команда [9.1](https://github.com/IgorPustylnik/TP-9.1);
