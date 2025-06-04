@@ -28,6 +28,11 @@
 - [Отчёт о тестировании](Документация/Отчёты%20и%20задачи/Отчёт%20о%20тестировании.docx)
 
 ## Документация
+### Программа и методика испытаний
+  - ПМИ [PDF](Документация/ПМИ/ПМИ.pdf)), [DOCX](Документация/ПМИ/ПМИ.docx), [Видео](https://drive.google.com/file/d/1t_p32nR4D4PO9zz31z0NfEYL9jK-0eC8/view?usp=drivesdk)
+  - Таймкоды ПМИ [PDF](Документация/ПМИ/Таймкоды_ПМИ.pdf), [DOCX](Документация/ПМИ/Таймкоды_ПМИ.docx)
+  
+
 ### Дизайн-проект
   - [Дизайн-макет](https://www.figma.com/design/RawKKCWpsSWZ3x9qSwJ6tr/Caker-9.4?node-id=4221-5227&t=iP84eQhG8OwHZn18-0);
   - [Макеты экранов](https://www.figma.com/design/RawKKCWpsSWZ3x9qSwJ6tr/Caker-9.4?node-id=0-1&p=f&t=iP84eQhG8OwHZn18-0);
@@ -57,6 +62,8 @@
   - User roles [PDF](Документация/Диаграммы/User%20Roles.pdf), [DOCX](Документация/Диаграммы/User%20Roles.pdf)
   - [Use Case (Для авторизированных клиентов)](Документация/Диаграммы/use_case.drawio.png)
   - [Use Case (Для неавторизированных клиентов)](Документация/Диаграммы/use_case_unauth.drawio.png)
+
+
 ## Презентации
 ### Аттестация 1
 - [Видео-презентация](https://drive.google.com/file/d/14WaP64-ASEpNvpIHuNhjDqMthJkkLIEU/view?usp=drivesdk)
@@ -65,6 +72,9 @@
 - [Видео-презентация MVP](https://drive.google.com/file/d/1Ux0C5bOlMCXTqAZN1lA3TA8qdrKkMwd3/view?usp=drivesdk)
 - [Видео о работе приложения](https://drive.google.com/file/d/1VCCC8SK5UN5od-ND91GyF25OvsG4xizP/view?usp=drivesdk)
 - Презентация [PDF](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Презентации/Аттестация%202/Презентация_MVP.pdf) [PPTX](https://github.com/MaksimStrelnikov/tp-9.4/blob/main/Презентации/Аттестация%202/Презентация_MVP.pptx)
+### Курсовой проект 
+- [Курсовой проект] [PDF](Документация/Курсовой%20проект/Курсовой_проект.pdf), [DOCX](Документация/Курсовой%20проект/Курсовой_проект.docx)
+- Презентация [PDF](), [PPTX]()
 
 ## Оценки
 ### Наши Чек-листы
